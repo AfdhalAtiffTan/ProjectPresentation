@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>MEng Team 3 Project</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -24,8 +24,111 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<section>
+						<small>MEng Team 3 Project</small>
+						<h3>e-Agri Neutrally buoyant tethered UAV for Ultra-Precision Agriculture and Field Phenotyping</h3>
+						
+						<a href="http://www.manchester.ac.uk/">
+							<img src="images/manchester.png" height="86" width="206">
+						</a>
+					</section>
+					
+					<section>				
+						<small>
+							<p>
+								<b>Team Members:</b><br>
+								Vlad Savu<br>
+								Tim Wai Khoo<br>
+								Syahidah Shuhaimi<br>
+								Andrei Badila<br>
+								Daniel Salin<br>
+								Matthew Danby<br>
+								Afdhal Atiff Tan<br>
+								
+								<br>
+								
+								<b>Supervised by:</b><br>
+								Prof. Bruce Grieve<br>
+								Prof. Alexander Lanzon<br>
+								Dr. Antony Barton<br>
+							</p>
+						</small>												
+					</section>					
+				</section>
+				
+				<section>
+					<section>
+					<h2>Introduction</h2>
+						<ul>
+							<li>An autonomous underconstrained cables driven parallel robot (3-dof)</li>
+							<li>Universal toolhead (e.g. GHG measurement probe, targetted pesticide applicator, etc.)</li>						
+							<li>Low power consumption (Helikite helium balloon as source of uplift)</li>
+							<li>Main goal: Improve food security</li>						
+						</ul>						
+					</section>
+					
+					<section>
+					<h3>The Concept</h3>
+						<img src="images/concept.png" height="526" width="704">
+					</section>
+						
+					<section>
+						<h2>As an extension to SkyGas (University of York)</h2>
+						<img src="images/skygas.jpg" height="247" width="331">
+					</section>
+				</section>
+				
+				<section>
+					<h2>Motivation</h2>
+					<ul>
+						<li>Non-intrusive and autonomous (unlike tractors)</li>
+						<li>Precise positioning than manual labour</li>						
+						<li>Portable and user friendly interface for farmers</li>
+						<li>Use no tall pillars and easy to install on site</li>						
+						<li>Versatile and multiple purpose toolhead</li>
+						<li>Modular and easily scalable</li>
+					</ul>
+					
+					<img src="images/msi.png" height="161" width="634">
+					<small>Credit: The University of Manchester</small>					
+				</section>
+				
+				<section>
+					<section>
+						<h2>Progress so far..</h2>
+					</section>
+					
+					<section>
+						<h2>Simple close-loop test</h2>
+						<img src="images/pr1.jpg" height="490" width="653">
+					</section>
+					
+					<section>
+						<h2>1D Robot Test</h2>
+						<img src="images/pr2.jpg" height="490" width="653">
+					</section>
+					
+					<section>
+						<h2>2D Robot Test</h2>
+						<img src="images/pr3.jpg" height="490" width="653">
+					</section>
+					
+					<section>
+						<h2>Software Architecture</h2>
+						<img src="images/block.png" height="483" width="508">
+					</section>
+					
+				</section>				
+				
+				<section>
+					<h2>Thank you</h2>
+				</section>
+				
+				
+				
+				
+				
 			</div>
 		</div>
 
@@ -41,6 +144,7 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
