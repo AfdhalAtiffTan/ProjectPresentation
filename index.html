@@ -7,7 +7,7 @@
 		<title>MEng Team 3 Project</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -30,11 +30,16 @@
 						<h3>e-Agri Neutrally buoyant tethered UAV for Ultra-Precision Agriculture and Field Phenotyping</h3>
 						
 						<a href="http://www.manchester.ac.uk/">
-							<img src="images/manchester.png" height="86" width="206">
+							<img src="images/manchester.png" height="138" width="331">
 						</a>
+						
+						<a href="https://www.york.ac.uk/">
+							<img src="images/york.png" height="138" width="364">
+						</a>
+						
 					</section>
 					
-					<section>				
+					<section>
 						<small>
 							<p>
 								<b>Team Members:</b><br>
@@ -64,7 +69,7 @@
 							<li>An autonomous underconstrained cables driven parallel robot (3-dof)</li>
 							<li>Universal toolhead (e.g. GHG measurement probe, targetted pesticide applicator, etc.)</li>						
 							<li>Low power consumption (Helikite helium balloon as source of uplift)</li>
-							<li>Main goal: Improve food security</li>						
+							<li>Main goal: <b>Improve food security</b></li>						
 						</ul>						
 					</section>
 					
@@ -75,7 +80,7 @@
 						
 					<section>
 						<h2>As an extension to SkyGas (University of York)</h2>
-						<img src="images/skygas.jpg" height="247" width="331">
+						<img src="images/skygas.jpg" height="371" width="497">						
 					</section>
 				</section>
 				
@@ -96,6 +101,129 @@
 				
 				<section>
 					<section>
+						<h2>Proposed Design</h2>
+					</section>
+					
+					<section>
+						<h2>Why neutrally buoyant?</h2>
+						<ul>
+							<li>Reduce energy consumption for continuous operation)</li>
+							<li>Heavy toolhead can be utilised</li>
+							<li>Reduce cable tension</li>
+							<li>Need no tall pillars</li>
+						</ul>
+					</section>
+					
+					<section>
+						<h2>Why Helikite?</h2>
+						<ul>
+							<li>Provide z-axis upward force, and minimise xy-axis disturbances</li>							
+						</ul>
+						
+						<a href="http://www.allsopp.co.uk/">
+							<img src="images/helikite.jpg" height="401" width="300">
+						</a>
+						
+					</section>
+					
+					<section>
+						<h2>Why Dyneema?</h2>
+						<ul>
+							<li>Strong and lightwight (420kg, £1.00/m, 0.5kg/100m)</li>
+							<li>Alternative: steel (630kg, £0.15/m, 3.5kg/100m)</li>
+						</ul>
+						
+						<a href="https://www.dinghy-rope.co.uk/2mm-dyneema-sk78-rope.html">
+							<img src="images/dyneema.jpg" height="350" width="466">
+						</a>
+						
+						<a href="http://wireropeshop.co.uk/wire-store/index.php?main_page=product_info&cPath=1_5_211&products_id=1080">
+							<img src="images/steel.jpg" height="350" width="350">
+						</a>						
+					</section>
+					
+					<section>
+						<h2>Why Deep-Cycle Lead Acid Battery?</h2>
+						<ul>
+							<li>Low-cost and tolerate abuse (overcharge/discharge)</li>
+							<li>Low Energy density, but, safer than LiPo</li>							
+						</ul>
+						
+						<a href="https://www.tayna.co.uk/F21-Varta-Start-Stop-Plus-AGM-Car-Battery-580901080-P8720.html">
+							<img src="images/battery.jpg" height="351" width="365">
+						</a>
+						
+					</section>
+					
+					<section>
+						<h2>Why Custom Design a Winch?</h2>
+						<ul>
+							<li>Close loop system is needed for length measurement</li>
+							<li>No known low-cost alternatives</li>
+						</ul>
+					</section>
+					
+					<section>
+						<h2>Problem with Electric Winches</h2>
+						<ul>
+							<li>Overpowered (series wound motor consumes high current, even unloaded)</li>
+							<li>Limited spool size</li>
+						</ul>
+						
+						<a href="http://www.electricwinchshop.co.uk/warrior-spartan-6000-synthetic.html">
+							<img src="images/spartan.jpg" height="201" width="326">
+						</a>
+					</section>
+					
+					<section>
+						<h2>Problem with Hand Winches</h2>
+						<ul>
+							<li>Ideal, comes with self-locking spool (worm gear)</li>
+							<li>May not be cost effective</li>
+						</ul>
+						
+						<a href="https://www.winchshop.co.uk/collections/worm-gear-winches/products/gebuwin-gr-d-wormgear-winch?variant=28445977097">
+							<img src="images/handwinch.jpg" height="336" width="224">
+						</a>
+						
+					</section>
+					
+					<section>
+						<h2>Proposed Full Scale Motor</h2>
+						<ul>
+							<li>£395, 24V, 2.2kW, 115.2Nm, 720RPM, brushed</li>
+							<li>High torque means no additional gearbox needed</li>
+							<li>But, may need braking mechanism</li>
+						</ul>
+						
+						<a href="https://www.rapidonline.com/ampflow-a28-150-g-3-24v-motor-and-gearbox-37-0316">
+							<img src="images/motor.jpg" height="350" width="350">
+						</a>
+						
+					</section>
+					
+					<section>
+						<h2>Why Wireless?</h2>
+						<ul>
+							<li>Easier installation/deployment, no long wires</li>
+							<li>Convenience, non-intrusive</li>
+						</ul>
+						
+						<a href="https://www.sparkfun.com/datasheets/Components/nRF24L01_prelim_prod_spec_1_2.pdf">						
+							<img src="images/wireless.png" height="350" width="350">
+						</a>						
+					</section>
+					
+					
+					
+					
+					
+				</section>
+				
+				
+				
+				<section>
+					<section>
 						<h2>Progress so far..</h2>
 					</section>
 					
@@ -110,7 +238,7 @@
 					</section>
 					
 					<section>
-						<h2>2D Robot Test</h2>
+						<h2>2D Robot Test (Wireless)</h2>
 						<img src="images/pr3.jpg" height="490" width="653">
 					</section>
 					
@@ -119,6 +247,25 @@
 						<img src="images/block.png" height="483" width="508">
 					</section>
 					
+					<section>
+						<h2>Node-RED User Web Interface</h2>
+						<img src="images/nodered.png" height="420" width="768">
+					</section>
+					
+					<section>
+						<h2>Constructed Motor Driver PCB Layout</h2>
+						<small>An H-Bridge for bidirectional motor speed control.</small>
+						<img src="images/pcb.png" height="311" width="723">
+					</section>
+					
+					<section>
+						<h2>Winch Calculator</h2>
+						<small>Python-based GUI used to help designing winches (motor, spool, battery, etc.)</small>
+						
+						<a href="https://github.com/AfdhalAtiffTan/WinchBatteryCalc">						
+							<img src="images/calc.png" height="432" width="800">
+						</a>
+					</section>					
 				</section>				
 				
 				<section>
